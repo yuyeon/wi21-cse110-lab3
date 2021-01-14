@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Alan's Landing Page</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Alan's Introduction Page in HTML">
+    </head>
+    <body>
+        <header>
+        <h1>Hi, I'm Alan.</h1>
+        </header>
+
+        <hr>
+
+        <section>
+            <h2>About Me</h2>
+            <p>Hey, <strong>I'm Alan</strong>, a sophomore studying Computer Science at UCSD. My hobbies include reading and coding, among others. 
+            <b>I’m interested in solving algorithmic problems, applications of algorithms, and artificial intelligence, specifically deep learning.</b>
+            <br>
+            Welcome to my page, where you can find links to some of my work and other stuff that's not my work.</p>
+            <picture>
+                <source media="(min-width:400px)" srcset="helloworld.jpeg">
+                <img src="wavehi_small.jpeg" alt="Wave Hi" style="width:auto;">
+            </picture>
+            <template>
+                <picture>
+                    <img src="wavehi_small.jpeg" alt="Wave Hi" style="width:auto;">
+                </picture>
+            </template>
+            <aside>
+                <p><i>This page is a work in progress.</i></p>
+            </aside>
+            <p>Find me at:</p>
+            <ul>
+                <li><a href=https://www.youtube.com/watch?v=dQw4w9WgXcQ>Email</a></li>
+                <li><a href=https://www.linkedin.com/in/alan-li-2001>LinkedIn</a></li>
+            </ul>
+            <p>Do you see the <em>canvas</em> below?</p>
+            <canvas id="canvas" width="200" height="300"></canvas>
+            <p>What about the black square?</p>
+            <svg width="200" height="200">
+                <rect width="200" height="200" />
+            </svg>
+        </section>
+
+        <hr>
+        
+        <section>
+            <h2>Contents</h2>
+            <nav>
+                <ol>
+                    <li><a href="#current-projects">Current Projects</a></li>
+                    <li><a href="#past-projects">Past Projects</a></li>
+                    <li><a href="#other-stuff">Other Stuff</a></li>
+                </ol>
+            </nav>
+            <button>This button does...</button>
+        </section>
+
+        <hr>
+
+        <section>
+            <div id="current-projects">
+                <h2>Current Projects</h2>
+                <h3>MM2</h3>
+                <pre>
+                    What    DOES this do???
+                    I wonder...
+                </pre>
+                <h3>Facial Recognition Web App</h3>
+                <p>Specific Version of Tensorflow Required:</p>
+                <code>pip3 install tensorflow==1.15</code>
+                <p>This app is currently <span style="color:red">not</span> very good.</p>
+                <figure>
+                    <img src="stateoftheart.png">
+                    <figcaption>Demonstration of Results</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <div id="past-projects">
+            <h2>Past Projects</h2>
+            <table style="width:100%">
+                <caption>Brief Overview</caption>
+                <colgroup>
+                    <col style="background-color: antiquewhite;">
+                    <col span="2" style="background-color: bisque;">
+                </colgroup>
+                <tr>
+                    <th>Project</th>
+                    <th>Link</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Micromanager</td>
+                    <td><a href="https://github.com/cschow-ucsd/micromanager">Link</a></td>
+                    <td>Coroutines and scheduling and stuff</td>
+                </tr>
+                <tr>
+                    <td>Nothing yet</td>
+                    <td>Nothing yet</td>
+                    <td>Nothing yet</td>
+                </tr>
+            </table>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <div id="other-stuff">
+            <h2>Other Stuff</h2>
+            <details>
+                <summary>Disclaimer</summary>
+                <p>This may or may not be a bit of a mess</p>
+            </details>
+            <iframe src="https://github.com/yuyeon" title="My Github"></iframe>
+            <br>
+            <p>Oh hi!</p>
+            <audio controls>
+                <source src="OH_HI_MARK.mp3" type="audio/mp3">
+            </audio>
+            <h3>Video below (Note: serious volume warning)</h3>
+            <video>
+                <source src="bananas.mp4" type="video/mp4">
+              </video>
+            </div>
+        </section>
+
+        <footer>
+            <p>Writen by Alan Li</p>
+        </footer>
+    </body>
+</html>
