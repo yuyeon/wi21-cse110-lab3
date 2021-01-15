@@ -130,6 +130,80 @@
             </video>
             </div>
         </section>
+        
+        <hr>
+
+        <section>
+            <h2>Even More Stuff</h2>
+            <form>
+                <legend>A quick quiz that doesn't work:</legend>
+                <label for="email">What is my email? Hint: click on the email in the "About Me" section.</label>
+                <br>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="name">What's my name? </label>
+                <br>
+                <input type="text" id="name" name="name" list="names">
+                <datalist id="names">
+                    <option>I don't know</option>
+                    <option>I wasn't paying attention</option>
+                    <option>Willy Wonka</option>
+                </datalist>
+                <br>
+                <fieldset>
+                    <legend>Related to the continuum of time</legend>
+                    <label for="year">What year is it?</label>
+                    <br>
+                    <input type="year" id="year" name="year">
+                    <br>
+                    <label for="month">What month is it?</label>
+                    <br>
+                    <input type="month" id="month" name="month">
+                    <br>
+                    <label for="date">What is the date?</label>
+                    <br>
+                    <input type="date" id="date" name="date">
+                    <br>
+                    <label for="time">What time is it?</label>
+                    <br>
+                    <input type="time" id="time" name="time">
+                </fieldset>
+                <br>
+                <label for="password">Feel free to type a password in :)</label>
+                <br>
+                <input type="password" id="password" name="password">
+                <br>
+                <label for="search">Try out this nonexistent search function.</label>
+                <br>
+                <input type="search" id="search" name="search">
+                <br>
+                <label for="number">What is the golden ratio?</label>
+                <br>
+                <input type="number" id="number" name="number">
+                <br>
+                <label for="languages">Choose your favorite language:</label>
+                <br>
+                <select name="languages" id="languages">
+                <optgroup label="The Right Answer">
+                    <option value="kotlin">Kotlin</option>
+                </optgroup>
+                <optgroup label="Other Answers">
+                    <option value="python">Python</option>
+                    <option value="c++">C++</option>
+                    <option value="c">C</option>
+                    <option value="java">Java</option>
+                    <option value="english">English</option>
+                </optgroup>
+                <label for="submit">You can submit (but this does nothing)</label>
+                <br>
+                <input type="submit" id="submit" name="submit">
+                <br>
+                <br>
+                <label for="thoughts">Any things you want to share (about anything, feel free to write an essay)?</label>
+                <br>
+                <textarea id="thoughts" name="thoughts">Type here</textarea>
+            </form>
+        </section>
 
         <footer>
             <p>Writen by Alan Li</p>
