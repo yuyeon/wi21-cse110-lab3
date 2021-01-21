@@ -4,10 +4,12 @@ body {
 /* special color for introduction paragraph */
 .introduction {
     color: rgb(132, 0, 0);
+    margin:auto;
 }
 /* special color for one section */
 #other-stuff {
     background-color: rgba(12, 143, 255, 0.5);
+    font-size:0.5cm;
 }
 *{
     color: black;
@@ -32,7 +34,7 @@ details > summary {
 }
 h2 + p {
     border-color:mediumseagreen;
-    border-radius: 0%;
+    border-radius: 15%;
     font-size: 4mm;
 }
 h2 ~ nav {
@@ -40,7 +42,27 @@ h2 ~ nav {
 }
 p.tonguetwister {
     text-decoration:line-through; /* strikethrough font for removable text */
+    text-align:end;
+    font-size: 0.5em;
 }
 h1 {
-    font-size:2cm; /* set header font size to 2 centimeters */
+    font-size:3vw; /* set header font size to 3% of viewport */
+}
+#current-projects {
+    width:75vw;
+    height:75vw;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:3mm;
+    padding-right:3mm;
+    margin-top:1px;
+    margin-bottom:1px;
+    margin-left:1px;
+    margin-right:1px;
+}
+#contents {
+    width:75vw;
+    height:10vw;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
 }
