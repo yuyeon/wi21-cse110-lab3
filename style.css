@@ -5,6 +5,7 @@ body {
 .introduction {
     color: rgb(132, 0, 0);
     margin:auto;
+    display:inline-block;
 }
 /* special color for one section */
 #other-stuff {
@@ -16,6 +17,12 @@ body {
 }
 button {
     color:hsl(281, 100%, 50%);
+}
+button:hover {
+    background-color:lightgray;
+}
+button:active {
+    background-color:maroon;
 }
 [this="hi"]{
     background-color:#FFFF00;
@@ -36,6 +43,8 @@ h2 + p {
     border-color:mediumseagreen;
     border-radius: 15%;
     font-size: 4mm;
+    min-width: 5px;
+    max-width: 1000px;
 }
 h2 ~ nav {
     border-width: 2px;
@@ -49,6 +58,7 @@ h1 {
     font-size:3vw; /* set header font size to 3% of viewport */
 }
 #current-projects {
+    position:static;
     width:75vw;
     height:75vw;
     padding-top:2px;
@@ -61,6 +71,9 @@ h1 {
     margin-right:1px;
 }
 #contents {
+    position:fixed;
+    bottom:25vw;
+    left:85vw;
     width:75vw;
     height:10vw;
     margin: 10px 10px 10px 10px;
