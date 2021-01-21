@@ -1,9 +1,11 @@
 body {
     background-color: hsla(62, 100%, 79%, 0.842);
 }
+/* special color for introduction paragraph */
 .introduction {
     color: rgb(132, 0, 0);
 }
+/* special color for one section */
 #other-stuff {
     background-color: rgba(12, 143, 255, 0.5);
 }
@@ -37,8 +39,8 @@ h2 ~ nav {
     border-width: 2px;
 }
 p.tonguetwister {
-    text-decoration:line-through;
+    text-decoration:line-through; /* strikethrough font for removable text */
 }
 h1 {
-    font-size:
+    font-size:2cm; /* set header font size to 2 centimeters */
 }
